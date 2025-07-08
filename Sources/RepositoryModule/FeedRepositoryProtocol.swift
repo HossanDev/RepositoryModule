@@ -7,6 +7,6 @@
 
 import Foundation
 
- protocol FeedRepositoryProtocol {
+ public protocol FeedRepositoryProtocol {
   func fetchFeed(from urlString: String) async throws -> [FeedElement]
 }
