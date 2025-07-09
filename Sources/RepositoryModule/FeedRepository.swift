@@ -23,7 +23,7 @@ public struct FeedRepository: FeedRepositoryProtocol {
       decoder.keyDecodingStrategy = .convertFromSnakeCase
       return try decoder.decode(T.self, from: data)
     } catch {
-      throw NetworkError.decodingFailed(error)
+      throw RepositoryError.decodingFailed(error)
     }
   }
 }

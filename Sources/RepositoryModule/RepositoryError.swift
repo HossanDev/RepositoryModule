@@ -1,6 +1,6 @@
 //
-//  NetworkError.swift
-//  NetworkLayer
+//  RepositoryError.swift
+//  RepositoryLayer
 //
 //  Created by MohammadHossan on 07/07/2025.
 //
@@ -8,7 +8,7 @@
 import Foundation
 
 
-public enum NetworkError: Error, LocalizedError {
+public enum RepositoryError: Error, LocalizedError {
   case invalidURL(String)
   case requestFailed(Error)
   case invalidResponse
