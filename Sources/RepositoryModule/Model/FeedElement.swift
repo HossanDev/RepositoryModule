@@ -32,10 +32,10 @@ public struct User: Codable, Hashable, Sendable {
   public let username, name, firstName: String
   public let profileImage: ProfileImage
   public let instagramUsername: String?
-  public let bio: String
+  public let bio: String?
   public let totalCollections, totalLikes, totalPhotos, totalPromotedPhotos: Int
   
-  public init(username: String, name: String, firstName: String, profileImage: ProfileImage, instagramUsername: String?, bio: String, totalCollections: Int, totalLikes: Int, totalPhotos: Int, totalPromotedPhotos: Int) {
+  public init(username: String, name: String, firstName: String, profileImage: ProfileImage, instagramUsername: String?, bio: String?, totalCollections: Int, totalLikes: Int, totalPhotos: Int, totalPromotedPhotos: Int) {
     self.username = username
     self.name = name
     self.firstName = firstName
