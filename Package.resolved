@@ -1,5 +1,5 @@
 {
-  "originHash" : "03a18af807f2ee07a1eac2c5041a4e5e9c40ec187251aabcd023ce17036d0026",
+  "originHash" : "e32e097f549a02b18ab34e8249b5b9f48b6bb5f8b0a4bc6691ed56dbdd5a4dc0",
   "pins" : [
     {
       "identity" : "modelmodule",
@@ -7,7 +7,7 @@
       "location" : "https://github.com/HossanDev/ModelModule.git",
       "state" : {
         "branch" : "main",
-        "revision" : "f58e8af2d3e816b2f00fbc100d9e041e41cbb801"
+        "revision" : "a0a2480a6fc4675632bde45543ccbec0d14341f5"
       }
     },
     {
