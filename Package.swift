@@ -19,13 +19,17 @@ let package = Package(
     
     dependencies: [
         .package(url: "https://github.com/HossanDev/NetworkModule.git", branch: "main"),
+        .package(url: "https://github.com/HossanDev/ModelModule.git", branch: "main"),
+
     ],
     
     targets: [
         .target(
             name: "RepositoryModule",
             dependencies: [
-                .product(name: "NetworkModule", package: "NetworkModule")
+                .product(name: "NetworkModule", package: "NetworkModule"),
+                .product(name: "ModelModule", package: "ModelModule")
+
             ]
         ),
         .testTarget(

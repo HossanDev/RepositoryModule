@@ -4,6 +4,7 @@
 
 import Foundation
 import NetworkModule
+import ModelModule
 
 public struct FeedRepository: FeedRepositoryProtocol {
   private let networkService: NetworkServiceProtocol
